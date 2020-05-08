@@ -1,0 +1,12 @@
+{
+  "name": "Aabayt",
+  "version": "12.0.0",
+  "description": "Al-bayt University",
+  "main": "server.js",
+  "repository": "https://github.com/hamzaOly/Aabayt.git",
+  "author": "hamzaoly <holimat6@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
