@@ -1,8 +1,15 @@
-const express = require('express');
- const app = express();
+const express = require("express");
+const app = express(),
+  bodyParser = require("body-parser"),
+  cors = require("cors"),
+  port = 3000;
+app.get("/", (req, res) => {
+  res.send("hello");
+});
 
-const port = 3000;
+app.use(bodyParser.json());
+app.use(cors());
 
- app.listen(port, () => {
-    console.log(`server is listening on port ${port}`);
+app.listen(port, () => {
+  console.log(`server is listening on port ${port}`);
 });
