@@ -2,5 +2,5 @@
 2- open the terminal in command type.
 3- npm install yarn -g wait until done.
 4- type in terminal ( yarn add express).
-5- type node terminal ( node server.js).
+5- type in the terminal ( node server.js).
 6- open your browser type (localhost:3000).
