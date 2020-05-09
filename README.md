@@ -9,6 +9,8 @@ node HTML engine> Twig engine, expressJs,  direction rtl
 
 4- type in terminal ( yarn add express).
 
+5- type in terminal ( yarn add pug ).
+
 5- type in the terminal ( node server.js).
 
 6- open your browser type (localhost:3000).
