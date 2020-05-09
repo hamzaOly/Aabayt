@@ -1,5 +1,5 @@
 # Aabayt
-node HTML engine> Twig engine, expressJs,  direction rtl
+node HTML engine> PUG engine, expressJs,  direction rtl
 
 1- downlaod nodejs
 
