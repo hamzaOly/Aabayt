@@ -24,8 +24,7 @@ app.get('/',(req,res) =>
 app.get('/about',(req,res) =>
 {
   res.render('about')
-})
-//git reset --hard 5a530b4
+});
 
 
 
