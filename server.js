@@ -9,17 +9,19 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // views engine setup
-app.set('view engine','pug');
+
 app.set('views',path.join(__dirname,'views'));
 
 // Serve Static Files from / Style
 let publicPath = path.join(__dirname,'public');
+app.set('view engine','pug');
 app.use(express.static(publicPath));
 
 app.get('/',(req,res) =>
 {
   res.render('nav')
 })
+
 
 app.get('/about',(req,res) =>
 {
