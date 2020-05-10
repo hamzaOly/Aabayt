@@ -9,7 +9,7 @@ node HTML engine> PUG engine, expressJs,  direction rtl
 
 4- type in terminal ( yarn add express).
 
-5- type in terminal ( yarn add pug ).
+5- type in terminal ( yarn add pug path body-parser cors ).
 
 5- type in the terminal ( node server.js).
 
