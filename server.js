@@ -25,7 +25,13 @@ app.get('/',(req,res) =>
 
 app.get('/about',(req,res) =>
 {
-  res.render('about')
+  res.render('about',{
+    title: "Hi"
+  })
+});
+app.get('/info',(req,res) =>
+{
+  res.render('info')
 });
 
 
