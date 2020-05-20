@@ -1,0 +1,47 @@
+
+.page-wrapper{
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+.page-wrapper img {
+    height: 300px;
+    width: 300px;
+}
+.page-wrapper a{
+    color: black;
+}
+.page-wrapper a:hover{
+    color: gray;
+}
+.stick{
+    background-color:#18887d;
+    justify-content:space-around;
+    width: auto;
+    display: flex;
+    letter-spacing: 1pt;
+    border-radius:0px 0px 6px 6px;
+
+}
+.post-slider .multiple-items .items{
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    margin: 0px 10px;
+   
+}
+.post-slider .multiple-items .items > .card{
+    height: 300px;
+    margin-left: 1px;
+}
+.gallery-wrapper{
+    margin-top: 10%;
+    
+    justify-content: center;
+    height: 250px;
+    width: auto;
+}
+.gallery-wrapper img {
+    height: 200px;
+    width: 300px;
+}
